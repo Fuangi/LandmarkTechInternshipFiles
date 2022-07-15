@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="">HOME</a></li> 
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>MMG: The Real Owners</h1>
+            <p>Welcome, and we hope you not only find what it is that you search, but lots more
+                <br>Enoy!!
+            </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+
+    </section>
+ 
+<section class="products">
+    <h1>Our products and Services</h1>
+    <p>We offer alot of good products and services which are both <br>satisfactory and worth the amount</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Shopping</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Recreational</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+        </div>
+        <div class="course-col">
+            <h3>Delivery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </p>
+            </div>
+
+</div>
+
+</section>
+
+<!--Location-->
+
+<section class="location">
+<h1>Our locations</h1>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+    nibh euismod tincidunt ut laoreet dolore mag</p>
+
+    <div class="row">
+
+        <div class="loc-col"></div>
+        <img src="images/london.png">
+        <div class="layer">
+            <h3>lONDON</h3>
+        </div>
+    </div>
+
+</section>
+
+    <!--JavaScript for toggle menu-->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>`
